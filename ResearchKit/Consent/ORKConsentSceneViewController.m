@@ -57,7 +57,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.imageView.shouldApplyTint = YES;
+        self.imageView.shouldApplyTint = NO;
         self.imageView.enableTintedImageCaching = YES;
     }
     return self;
